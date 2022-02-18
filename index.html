@@ -12,75 +12,57 @@
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 48px;
         margin-bottom: 25px;
-        color: #2c2e43;
+        color: #000;
+      }
+
+      div > h3 {
+        position: absolute;
+        top: -19px;
+        right: 0px;
+        border: 2px solid black;
+        border-right: none;
+        border-top: none;
+        padding: 1px;
+        width: 40%;
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.2em;
+        border-radius: 5px;
       }
       .menu-1 {
         background-color: #f9c5d5;
-        text-align: center;
-        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-        width: 50%;
-        height: 30px;
         color: #000;
-        border-radius: 7px;
-        font-weight: bold;
-        border: 5px solid #f9c5d5;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
       }
       #menu-2 {
         background-color: #f05454;
-        text-align: center;
-        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-        width: 50%;
-        height: 30px;
         color: #fff;
-        border-radius: 7px;
-        font-weight: bold;
-        border: 5px solid #f05454;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
       }
       .menu-3 {
         background-color: #ecb365;
-        text-align: center;
-        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-        width: 50%;
-        height: 30px;
         color: #000;
-        border-radius: 7px;
-        font-weight: bold;
-        border: 5px solid #ecb365;
-      }
-
-      p {
-        background-color: #c2b8a3;
         font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-        width: 100%;
-        height: 175px;
-        color: #000;
-        border-radius: 7px;
-        border: 1px solid #000;
-        text-align: justify;
-        font-weight: lighter;
       }
 
       .row {
         width: 100%;
+        margin: auto;
       }
 
-      #row-1 {
-        margin-right: 10px;
-        margin-left: 10px;
-        border-radius: 50px;
-      }
-
-      #row-2 {
-        margin-right: 10px;
-        margin-left: 10px;
+      #row-1-2-3 {
+        background-color: #c2b8a3;
+        position: relative;
+        top: 0;
+        margin: 15px;
+        padding: 25px 25px 25px 25px;
         border-radius: 5px;
+        text-align: justify;
+        border-radius: 5px;
+        border: 2px solid black;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
       }
 
-      #row-3 {
-        margin-right: 10px;
-        margin-left: 10px;
-        border-radius: 5px;
-      }
       @media (min-width: 992px) {
         .col-lg-1,
         .col-lg-2,
@@ -245,7 +227,7 @@
     <h1>Our Menu</h1>
     <div class="row">
       <div class="col-lg-4 col-md-6 col-sm-12">
-        <div id="row-1">
+        <div id="row-1-2-3">
           <h3 class="menu-1">Chicken</h3>
           <p id="p1">
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
@@ -255,7 +237,7 @@
       </div>
 
       <div class="col-lg-4 col-md-6 col-sm-12">
-        <div id="row-2">
+        <div id="row-1-2-3">
           <h3 id="menu-2">Beef</h3>
           <p id="p2">
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
@@ -265,7 +247,7 @@
       </div>
 
       <div class="col-lg-4 col-md-12 col-sm-12">
-        <div id="row-3">
+        <div id="row-1-2-3">
           <h3 class="menu-3">Sushi</h3>
           <p id="p3">
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
